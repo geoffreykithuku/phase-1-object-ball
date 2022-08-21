@@ -2,10 +2,10 @@
 let gameObject = () => {
 	const obj = {
 		home: {
-			teamName: "kamennu",
+			teamName: "Brooklyn Nets",
 			colors: ["Black", "White"],
 			players: {
-				"Black Rick": {
+				"Alan Anderson": {
 					number: 0,
 					shoe: 16,
 					points: 22,
@@ -15,7 +15,7 @@ let gameObject = () => {
 					blocks: 1,
 					slamDunks: 1
 				},
-				"Anderson may": {
+				"Reggie Evans": {
 					number: 30,
 					shoe: 14,
 					points: 12,
@@ -25,7 +25,7 @@ let gameObject = () => {
 					blocks: 12,
 					slamDunks: 7
 				},
-				"Geoffrey Miller": {
+				"Brook Lopez": {
 					number: 11,
 					shoe: 17,
 					points: 17,
@@ -35,7 +35,7 @@ let gameObject = () => {
 					blocks: 1,
 					slamDunks: 15
 				},
-				"Maingi Blue": {
+				"Mason Plumlee": {
 					number: 1,
 					shoe: 19,
 					points: 26,
@@ -45,7 +45,7 @@ let gameObject = () => {
 					blocks: 8,
 					slamDunks: 5
 				},
-				"James Adre": {
+				"Jason Terry": {
 					number: 31,
 					shoe: 15,
 					points: 19,
@@ -58,10 +58,10 @@ let gameObject = () => {
 			}
 		},
 		away: {
-			teamName: "Harrabbe Stars",
+			teamName: "Charlotte Hornets",
 			colors: ["Turquoise", "Purple"],
 			players: {
-				"Mitley Bon": {
+				"Jeff Adrien": {
 					number: 4,
 					shoe: 18,
 					points: 10,
@@ -71,7 +71,7 @@ let gameObject = () => {
 					blocks: 7,
 					slamDunks: 2
 				},
-				"Ashley Kile": {
+				"Bismak Biyombo": {
 					number: 0,
 					shoe: 16,
 					points: 12,
@@ -81,7 +81,7 @@ let gameObject = () => {
 					blocks: 15,
 					slamDunks: 10
 				},
-				"Disney white": {
+				"DeSagna Diop": {
 					number: 2,
 					shoe: 14,
 					points: 24,
@@ -91,7 +91,7 @@ let gameObject = () => {
 					blocks: 5,
 					slamDunks: 5
 				},
-				"Jamlec Doba": {
+				"Ben Gordon": {
 					number: 8,
 					shoe: 15,
 					points: 33,
@@ -101,7 +101,7 @@ let gameObject = () => {
 					blocks: 1,
 					slamDunks: 0
 				},
-				"willy scott": {
+				"Brendan Haywood": {
 					number: 33,
 					shoe: 15,
 					points: 6,
@@ -126,4 +126,3 @@ let awayTeamName = () => {
 	let object = gameObject()
 	return object['away']['teamName']
 }
-
